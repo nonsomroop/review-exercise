@@ -1,0 +1,48 @@
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.Fsite li :visited{
+    color:  limegreen;
+}
+
+.Fsite li :hover{
+    color: red; 
+}
+
+.Fsite {
+    text-indent: 0%;
+    margin: 20px;
+}
+
+.Psite {
+    width: 40vw;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Psite:hover h2{
+    color: red;
+}
+
+.Psite:hover {
+    border: solid red 1px;
+}
+
+.Gsite {
+    margin: 20px;
+}
+
+.Gsite ul li img:hover {
+    transform: scale(1.2);
+}
+
+.S1Site, .S2Site {
+    margin: 5px;
+}
+
+.S2Site li{
+    list-style-type: none;
+}
